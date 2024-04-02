@@ -754,6 +754,7 @@ class Compound(object):
         else:
             matching_moves = []
             # Obtain rules sorted by the score I'm interested in.
+            #self.logger.info(f"{available_rules}")
             sorted_rules = self._obtain_available_rules(available_rules, chemical_scorer, biological_scorer)
             self.logger.info("{} available rules".format(len(sorted_rules)))
             for rule_id, rule_characteristics in sorted_rules:
