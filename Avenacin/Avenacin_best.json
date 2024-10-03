@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "O=c1nc(O)ccn1C1OC(COP(=O)(O)OP(=O)(O)OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)",
+          "Names": [
+            "HSCJRCZFDFQWRP-UHFFFAOYSA-N",
+            "UDPgalactose"
+          ],
+          "id": "HSCJRCZFDFQWRP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C49H73NO16/c1-43(22-52)17-30-45(3,19-34(43)63-40(60)24-10-8-9-11-25(24)50-7)31(55)18-48(6)47(5)15-12-28-44(2,29(47)16-33-49(30,48)66-33)14-13-32(46(28,4)23-53)64-42-39(35(56)26(54)21-61-42)65-41-38(59)37(58)36(57)27(20-51)62-41/h8-11,22,26-39,41-42,50-51,53-59H,12-21,23H2,1-7H3",
+          "Names": [
+            "SRFOOYAHGIGROO-UHFFFAOYSA-N"
+          ],
+          "id": "SRFOOYAHGIGROO-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C55H83NO21/c1-49(23-59)17-32-51(3,19-36(49)74-45(69)25-10-8-9-11-26(25)56-7)33(61)18-54(6)53(5)15-12-30-50(2,31(53)16-35-55(32,54)77-35)14-13-34(52(30,4)24-60)75-48-44(76-47-43(68)41(66)38(63)28(21-58)72-47)39(64)29(22-70-48)73-46-42(67)40(65)37(62)27(20-57)71-46/h8-11,23,27-44,46-48,56-58,60-68H,12-22,24H2,1-7H3",
+          "Names": [
+            "Avenacin",
+            "SYXUBXTYGFJFEH-UHFFFAOYSA-N"
+          ],
+          "id": "SYXUBXTYGFJFEH-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "RR-02-d597c7a9749e7a1f-08-F"
+          ],
+          "EC number": [
+            "2.4.1"
+          ],
+          "Reaction SMILES": "CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O>>CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O.O=c1nc(O)ccn1C1OC(COP(=O)(O)OP(=O)(O)OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+          "Diameter": 8,
+          "Score": 0.3338434347199052,
+          "ChemicalScore": 0.6710266884476328,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "SRFOOYAHGIGROO-UHFFFAOYSA-N": 1,
+            "HSCJRCZFDFQWRP-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1",
+          "source": "SYXUBXTYGFJFEH-UHFFFAOYSA-N",
+          "id": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1_=>_SYXUBXTYGFJFEH-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "SRFOOYAHGIGROO-UHFFFAOYSA-N",
+          "source": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1",
+          "id": "SRFOOYAHGIGROO-UHFFFAOYSA-N_=>_SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "HSCJRCZFDFQWRP-UHFFFAOYSA-N",
+          "source": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1",
+          "id": "HSCJRCZFDFQWRP-UHFFFAOYSA-N_=>_SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0-1"
+        }
+      }
+    ]
+  }
+}

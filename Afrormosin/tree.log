@@ -1,0 +1,97 @@
+13/03/2024 20:50:48 -- INFO -- Stating global parameters from configuration file
+13/03/2024 20:50:48 -- INFO -- Using retrosynthesis: True - using biosensor False
+13/03/2024 20:50:48 -- INFO -- Full search - no stopping at first result
+13/03/2024 20:50:48 -- INFO -- Setting the DB from config file: Installed package: False
+13/03/2024 20:50:48 -- INFO -- Initialising an empty cache: {}; Using it: True
+13/03/2024 20:50:48 -- INFO -- -------------------Scoring configurations -------------------------
+13/03/2024 20:50:48 -- INFO -- Using biological cut off at 0.1
+13/03/2024 20:50:48 -- INFO -- Using substrate only cut off at 0.01
+13/03/2024 20:50:48 -- INFO -- Using chemical score cut off at 0.3
+13/03/2024 20:50:48 -- INFO -- -------------------MCTS configurations -------------------------
+13/03/2024 20:50:48 -- INFO -- Setting the minimal visit count for a node at 1
+13/03/2024 20:50:48 -- INFO -- Using RAVE: False
+13/03/2024 20:50:48 -- INFO -- -------------------Chemical configurations -------------------------
+13/03/2024 20:50:48 -- INFO -- Using explicit hydrogens : False
+13/03/2024 20:50:48 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:49 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:49 -- INFO -- Starting move obtention process with compound Afrormosin (COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1) at 1710363049.090248
+13/03/2024 20:50:49 -- INFO -- 18532 available rules
+13/03/2024 20:53:36 -- INFO -- For compound Afrormosin, matching moves are [KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-8a8c9e78aec5308c-08-F-0, KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-eed5116fce3c2770-08-F-0, KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-1c98b32a61172fb6-08-F-0]
+13/03/2024 20:53:36 -- INFO -- Caching results for compound KJGPBYUQZLUKLL-UHFFFAOYSA-N. The cache contained 0
+13/03/2024 20:53:36 -- INFO -- Calculated moves in 167.47705936431885 for compound KJGPBYUQZLUKLL-UHFFFAOYSA-N - without caching
+13/03/2024 20:53:36 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:53:36 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 20h 53min 36s 
+Your tree search is currently running ... 
+ 
+
+13/03/2024 20:53:36 -- INFO -- Performing iteration 0 out of 1000
+13/03/2024 20:53:36 -- INFO -- Adding a child with move KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-8a8c9e78aec5308c-08-F-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Afrormosin|
+13/03/2024 20:53:36 -- INFO -- Starting move obtention process with compound MZJUGRMCXKZMOG-UHFFFAOYSA-N (COc1ccc(-c2coc3cc(OC4OC(COC5OCC(O)(CO)C5O)C(O)C(O)C4O)c(OC)cc3c2=O)cc1) at 1710363216.5969164
+13/03/2024 20:53:37 -- INFO -- 18619 available rules
+13/03/2024 20:56:10 -- INFO -- For compound MZJUGRMCXKZMOG-UHFFFAOYSA-N, matching moves are []
+13/03/2024 20:56:10 -- INFO -- Caching results for compound MZJUGRMCXKZMOG-UHFFFAOYSA-N. The cache contained 1
+13/03/2024 20:56:10 -- INFO -- Calculated moves in 153.51256489753723 for compound MZJUGRMCXKZMOG-UHFFFAOYSA-N - without caching
+13/03/2024 20:56:10 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:56:10 -- INFO -- Adding a child with move KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-eed5116fce3c2770-08-F-0 to node 
+Count: 1/ Score : 0.5/ Children: 1/ Terminal : False
+|Afrormosin|
+13/03/2024 20:56:10 -- INFO -- Starting move obtention process with compound MZJUGRMCXKZMOG-UHFFFAOYSA-N (COc1ccc(-c2coc3cc(OC4OC(COC5OCC(O)(CO)C5O)C(O)C(O)C4O)c(OC)cc3c2=O)cc1) at 1710363370.1424074
+13/03/2024 20:56:10 -- INFO -- Retrieved moves in 0.0004048347473144531 for compound MZJUGRMCXKZMOG-UHFFFAOYSA-N - with caching
+13/03/2024 20:56:10 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:56:10 -- INFO -- Adding a child with move KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-1c98b32a61172fb6-08-F-0 to node 
+Count: 2/ Score : 0.5/ Children: 2/ Terminal : False
+|Afrormosin|
+13/03/2024 20:56:10 -- INFO -- Starting move obtention process with compound DXYUAIFZCFRPTH-UHFFFAOYSA-N (COc1cc2c(=O)c(-c3ccc(O)cc3)coc2cc1O) at 1710363370.1625345
+13/03/2024 20:56:10 -- INFO -- 18534 available rules
+13/03/2024 20:57:27 -- INFO -- For compound DXYUAIFZCFRPTH-UHFFFAOYSA-N, matching moves are [DXYUAIFZCFRPTH-UHFFFAOYSA-N-RR-02-8a8c9e78aec5308c-08-F-0, DXYUAIFZCFRPTH-UHFFFAOYSA-N-RR-02-eed5116fce3c2770-08-F-0]
+13/03/2024 20:57:27 -- INFO -- Caching results for compound DXYUAIFZCFRPTH-UHFFFAOYSA-N. The cache contained 2
+13/03/2024 20:57:27 -- INFO -- Calculated moves in 76.89275407791138 for compound DXYUAIFZCFRPTH-UHFFFAOYSA-N - without caching
+13/03/2024 20:57:27 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:57:27 -- INFO -- Adding a child with move DXYUAIFZCFRPTH-UHFFFAOYSA-N-RR-02-8a8c9e78aec5308c-08-F-0 to node 
+	Move name: KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-1c98b32a61172fb6-08-F-0/ Biological score : 0.54/ Chemical score: 0.54
+	Count: 0/ Score : 0/ Children: 0/ Terminal : False
+	|DXYUAIFZCFRPTH-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|
+13/03/2024 20:57:27 -- INFO -- Starting move obtention process with compound IIAXZRQNQBJLHM-UHFFFAOYSA-N (COc1cc2c(=O)c(-c3ccc(O)cc3)coc2cc1OC1OC(COC2OCC(O)(CO)C2O)C(O)C(O)C1O) at 1710363447.1075828
+13/03/2024 20:57:27 -- INFO -- 18619 available rules
+13/03/2024 20:58:44 -- INFO -- For compound IIAXZRQNQBJLHM-UHFFFAOYSA-N, matching moves are []
+13/03/2024 20:58:44 -- INFO -- Caching results for compound IIAXZRQNQBJLHM-UHFFFAOYSA-N. The cache contained 3
+13/03/2024 20:58:44 -- INFO -- Calculated moves in 76.9633412361145 for compound IIAXZRQNQBJLHM-UHFFFAOYSA-N - without caching
+13/03/2024 20:58:44 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:58:44 -- INFO -- Adding a child with move DXYUAIFZCFRPTH-UHFFFAOYSA-N-RR-02-eed5116fce3c2770-08-F-0 to node 
+	Move name: KJGPBYUQZLUKLL-UHFFFAOYSA-N-RR-02-1c98b32a61172fb6-08-F-0/ Biological score : 0.54/ Chemical score: 0.54
+	Count: 1/ Score : 0.67/ Children: 1/ Terminal : False
+	|DXYUAIFZCFRPTH-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|
+13/03/2024 20:58:44 -- INFO -- Starting move obtention process with compound IIAXZRQNQBJLHM-UHFFFAOYSA-N (COc1cc2c(=O)c(-c3ccc(O)cc3)coc2cc1OC1OC(COC2OCC(O)(CO)C2O)C(O)C(O)C1O) at 1710363524.1080492
+13/03/2024 20:58:44 -- INFO -- Retrieved moves in 0.0003864765167236328 for compound IIAXZRQNQBJLHM-UHFFFAOYSA-N - with caching
+13/03/2024 20:58:44 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:58:44 -- INFO -- Performing iteration 100 out of 1000
+13/03/2024 20:58:44 -- INFO -- Performing iteration 200 out of 1000
+13/03/2024 20:58:44 -- INFO -- Performing iteration 300 out of 1000
+13/03/2024 20:58:44 -- INFO -- Performing iteration 400 out of 1000
+13/03/2024 20:58:45 -- INFO -- Performing iteration 500 out of 1000
+13/03/2024 20:58:45 -- INFO -- Performing iteration 600 out of 1000
+13/03/2024 20:58:45 -- INFO -- Performing iteration 700 out of 1000
+13/03/2024 20:58:45 -- INFO -- Performing iteration 800 out of 1000
+13/03/2024 20:58:46 -- INFO -- Performing iteration 900 out of 1000
+13/03/2024 20:58:46 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 20h 58min 46s 
+Your tree search took 3.1e+02s 
+ 
+Time was spent in selection: 6.3e-02s, expansion: 3.1e+02s, rollout: 0.0e+00s, update: 1.9e-02s 
+You just lost the game
+13/03/2024 20:58:46 -- INFO -- At the end of this tree search, the cache contains 4
+13/03/2024 20:58:46 -- WARNING -- RECAP TIME_EXECUTION=309.82
+13/03/2024 20:58:46 -- WARNING -- RECAP STOP_REASON=iteration
+13/03/2024 20:58:46 -- WARNING -- RECAP NUMBER_ITERATION=999
+13/03/2024 20:58:46 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+13/03/2024 20:58:46 -- INFO -- No pathway was found for this compound
+13/03/2024 20:58:46 -- INFO -- 0 pathways were found
+13/03/2024 20:58:46 -- INFO -- At the end of this tree search, the cache contains 4

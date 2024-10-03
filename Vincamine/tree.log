@@ -1,0 +1,56 @@
+13/03/2024 20:50:59 -- INFO -- Stating global parameters from configuration file
+13/03/2024 20:50:59 -- INFO -- Using retrosynthesis: True - using biosensor False
+13/03/2024 20:50:59 -- INFO -- Full search - no stopping at first result
+13/03/2024 20:50:59 -- INFO -- Setting the DB from config file: Installed package: False
+13/03/2024 20:50:59 -- INFO -- Initialising an empty cache: {}; Using it: True
+13/03/2024 20:50:59 -- INFO -- -------------------Scoring configurations -------------------------
+13/03/2024 20:50:59 -- INFO -- Using biological cut off at 0.1
+13/03/2024 20:50:59 -- INFO -- Using substrate only cut off at 0.01
+13/03/2024 20:50:59 -- INFO -- Using chemical score cut off at 0.3
+13/03/2024 20:50:59 -- INFO -- -------------------MCTS configurations -------------------------
+13/03/2024 20:50:59 -- INFO -- Setting the minimal visit count for a node at 1
+13/03/2024 20:50:59 -- INFO -- Using RAVE: False
+13/03/2024 20:50:59 -- INFO -- -------------------Chemical configurations -------------------------
+13/03/2024 20:50:59 -- INFO -- Using explicit hydrogens : False
+13/03/2024 20:50:59 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:59 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:59 -- INFO -- Starting move obtention process with compound Vincamine (CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32) at 1710363059.7812667
+13/03/2024 20:51:00 -- INFO -- 18615 available rules
+13/03/2024 20:53:38 -- INFO -- For compound Vincamine, matching moves are []
+13/03/2024 20:53:38 -- INFO -- Caching results for compound RXPRRQLKFXBCSJ-UHFFFAOYSA-N. The cache contained 0
+13/03/2024 20:53:38 -- INFO -- Calculated moves in 158.68486404418945 for compound RXPRRQLKFXBCSJ-UHFFFAOYSA-N - without caching
+13/03/2024 20:53:38 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:53:38 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 20h 53min 38s 
+Your tree search is currently running ... 
+ 
+
+13/03/2024 20:53:38 -- INFO -- Performing iteration 0 out of 1000
+13/03/2024 20:53:38 -- INFO -- Performing iteration 100 out of 1000
+13/03/2024 20:53:38 -- INFO -- Performing iteration 200 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 300 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 400 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 500 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 600 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 700 out of 1000
+13/03/2024 20:53:39 -- INFO -- Performing iteration 800 out of 1000
+13/03/2024 20:53:40 -- INFO -- Performing iteration 900 out of 1000
+13/03/2024 20:53:40 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 20h 53min 40s 
+Your tree search took 2.3e+00s 
+ 
+Time was spent in selection: 1.8e-03s, expansion: 1.2e-03s, rollout: 0.0e+00s, update: 1.4e-02s 
+You just lost the game
+13/03/2024 20:53:40 -- INFO -- At the end of this tree search, the cache contains 1
+13/03/2024 20:53:40 -- WARNING -- RECAP TIME_EXECUTION=1.81
+13/03/2024 20:53:40 -- WARNING -- RECAP STOP_REASON=iteration
+13/03/2024 20:53:40 -- WARNING -- RECAP NUMBER_ITERATION=999
+13/03/2024 20:53:40 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+13/03/2024 20:53:40 -- INFO -- No pathway was found for this compound
+13/03/2024 20:53:40 -- INFO -- 0 pathways were found
+13/03/2024 20:53:40 -- INFO -- At the end of this tree search, the cache contains 1

@@ -1,0 +1,62 @@
+18/03/2024 13:41:41 -- INFO -- Stating global parameters from configuration file
+18/03/2024 13:41:41 -- INFO -- Using retrosynthesis: True - using biosensor False
+18/03/2024 13:41:41 -- INFO -- Full search - no stopping at first result
+18/03/2024 13:41:41 -- INFO -- Setting the DB from config file: Installed package: False
+18/03/2024 13:41:41 -- INFO -- Initialising an empty cache: {}; Using it: True
+18/03/2024 13:41:41 -- INFO -- -------------------Scoring configurations -------------------------
+18/03/2024 13:41:41 -- INFO -- Using biological cut off at 0.1
+18/03/2024 13:41:41 -- INFO -- Using substrate only cut off at 0.01
+18/03/2024 13:41:41 -- INFO -- Using chemical score cut off at 0.3
+18/03/2024 13:41:41 -- INFO -- -------------------MCTS configurations -------------------------
+18/03/2024 13:41:41 -- INFO -- Setting the minimal visit count for a node at 1
+18/03/2024 13:41:41 -- INFO -- Using RAVE: False
+18/03/2024 13:41:41 -- INFO -- -------------------Chemical configurations -------------------------
+18/03/2024 13:41:41 -- INFO -- Using explicit hydrogens : False
+18/03/2024 13:41:41 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+18/03/2024 13:41:41 -- ERROR -- For compound Naringenin with inchi InChI=1S/C15H12O5/c16-9-3-1-8(2-4-9)13-7-12(19)15-11(18)5-10(17)6-14(15)20-13/h1-6,13,16-18H,7H2  : error ChemConversionError
+18/03/2024 13:41:41 -- INFO -- File building_blocks.csv is the sink
+18/03/2024 13:41:41 -- INFO -- Main layer was set to True. Sanitising state
+18/03/2024 13:41:41 -- INFO -- Main layer was set to True. Sanitising state
+18/03/2024 13:41:41 -- INFO -- Starting move obtention process with compound Vincamine (CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32) at 1710769301.932153
+18/03/2024 13:41:42 -- INFO -- 18615 available rules
+18/03/2024 13:43:45 -- INFO -- For compound Vincamine, matching moves are []
+18/03/2024 13:43:45 -- INFO -- Caching results for compound RXPRRQLKFXBCSJ-UHFFFAOYSA-N. The cache contained 0
+18/03/2024 13:43:45 -- INFO -- Calculated moves in 123.50492477416992 for compound RXPRRQLKFXBCSJ-UHFFFAOYSA-N - without caching
+18/03/2024 13:43:45 -- INFO -- Progressive bias with FPU of 0
+18/03/2024 13:43:45 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 13h 43min 45s 
+Your tree search is currently running ... 
+ 
+
+18/03/2024 13:43:45 -- INFO -- Performing iteration 0 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 100 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 200 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 300 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 400 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 500 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 600 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 700 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 800 out of 1000
+18/03/2024 13:43:45 -- INFO -- Performing iteration 900 out of 1000
+18/03/2024 13:43:45 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 13h 43min 45s 
+Your tree search took 6.1e-01s 
+ 
+Time was spent in selection: 5.5e-04s, expansion: 4.8e-04s, rollout: 0.0e+00s, update: 2.4e-03s 
+You just lost the game
+18/03/2024 13:43:45 -- INFO -- At the end of this tree search, the cache contains 1
+18/03/2024 13:43:45 -- WARNING -- RECAP TIME_EXECUTION=0.17
+18/03/2024 13:43:45 -- WARNING -- RECAP STOP_REASON=iteration
+18/03/2024 13:43:45 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/03/2024 13:43:45 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/03/2024 13:43:45 -- INFO -- No pathway was found for this compound
+18/03/2024 13:43:45 -- INFO -- 0 pathways were found
+18/03/2024 13:43:45 -- INFO -- At the end of this tree search, the cache contains 1

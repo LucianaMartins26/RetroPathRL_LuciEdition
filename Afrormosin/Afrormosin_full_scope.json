@@ -1,0 +1,27 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C17H14O5/c1-20-11-5-3-10(4-6-11)13-9-22-15-8-14(18)16(21-2)7-12(15)17(13)19/h3-9,18H,1-2H3",
+          "Names": [
+            "Afrormosin",
+            "KJGPBYUQZLUKLL-UHFFFAOYSA-N"
+          ],
+          "id": "KJGPBYUQZLUKLL-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      }
+    ],
+    "edges": []
+  }
+}

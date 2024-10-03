@@ -1,0 +1,27 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C55H83NO21/c1-49(23-59)17-32-51(3,19-36(49)74-45(69)25-10-8-9-11-26(25)56-7)33(61)18-54(6)53(5)15-12-30-50(2,31(53)16-35-55(32,54)77-35)14-13-34(52(30,4)24-60)75-48-44(76-47-43(68)41(66)38(63)28(21-58)72-47)39(64)29(22-70-48)73-46-42(67)40(65)37(62)27(20-57)71-46/h8-11,23,27-44,46-48,56-58,60-68H,12-22,24H2,1-7H3",
+          "Names": [
+            "Avenacin",
+            "SYXUBXTYGFJFEH-UHFFFAOYSA-N"
+          ],
+          "id": "SYXUBXTYGFJFEH-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      }
+    ],
+    "edges": []
+  }
+}

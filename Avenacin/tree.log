@@ -1,0 +1,65 @@
+13/03/2024 20:50:36 -- INFO -- Stating global parameters from configuration file
+13/03/2024 20:50:36 -- INFO -- Using retrosynthesis: True - using biosensor False
+13/03/2024 20:50:36 -- INFO -- Full search - no stopping at first result
+13/03/2024 20:50:36 -- INFO -- Setting the DB from config file: Installed package: False
+13/03/2024 20:50:36 -- INFO -- Initialising an empty cache: {}; Using it: True
+13/03/2024 20:50:36 -- INFO -- -------------------Scoring configurations -------------------------
+13/03/2024 20:50:36 -- INFO -- Using biological cut off at 0.1
+13/03/2024 20:50:36 -- INFO -- Using substrate only cut off at 0.01
+13/03/2024 20:50:36 -- INFO -- Using chemical score cut off at 0.3
+13/03/2024 20:50:36 -- INFO -- -------------------MCTS configurations -------------------------
+13/03/2024 20:50:36 -- INFO -- Setting the minimal visit count for a node at 1
+13/03/2024 20:50:36 -- INFO -- Using RAVE: False
+13/03/2024 20:50:36 -- INFO -- -------------------Chemical configurations -------------------------
+13/03/2024 20:50:36 -- INFO -- Using explicit hydrogens : False
+13/03/2024 20:50:36 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:37 -- INFO -- Main layer was set to True. Sanitising state
+13/03/2024 20:50:37 -- INFO -- Starting move obtention process with compound Avenacin (CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O) at 1710363037.302333
+13/03/2024 20:50:37 -- INFO -- 18517 available rules
+13/03/2024 20:53:30 -- INFO -- For compound Avenacin, matching moves are [SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0]
+13/03/2024 20:53:30 -- INFO -- Caching results for compound SYXUBXTYGFJFEH-UHFFFAOYSA-N. The cache contained 0
+13/03/2024 20:53:30 -- INFO -- Calculated moves in 173.28661584854126 for compound SYXUBXTYGFJFEH-UHFFFAOYSA-N - without caching
+13/03/2024 20:53:30 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:53:30 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 20h 53min 30s 
+Your tree search is currently running ... 
+ 
+
+13/03/2024 20:53:30 -- INFO -- Performing iteration 0 out of 1000
+13/03/2024 20:53:30 -- INFO -- Adding a child with move SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Avenacin|
+13/03/2024 20:53:30 -- INFO -- Starting move obtention process with compound SRFOOYAHGIGROO-UHFFFAOYSA-N (CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O) at 1710363210.6081195
+13/03/2024 20:53:30 -- INFO -- 18578 available rules
+13/03/2024 20:56:15 -- INFO -- For compound SRFOOYAHGIGROO-UHFFFAOYSA-N, matching moves are []
+13/03/2024 20:56:15 -- INFO -- Caching results for compound SRFOOYAHGIGROO-UHFFFAOYSA-N. The cache contained 1
+13/03/2024 20:56:15 -- INFO -- Calculated moves in 164.49390697479248 for compound SRFOOYAHGIGROO-UHFFFAOYSA-N - without caching
+13/03/2024 20:56:15 -- INFO -- Progressive bias with FPU of 0
+13/03/2024 20:56:15 -- INFO -- Performing iteration 100 out of 1000
+13/03/2024 20:56:15 -- INFO -- Performing iteration 200 out of 1000
+13/03/2024 20:56:15 -- INFO -- Performing iteration 300 out of 1000
+13/03/2024 20:56:16 -- INFO -- Performing iteration 400 out of 1000
+13/03/2024 20:56:16 -- INFO -- Performing iteration 500 out of 1000
+13/03/2024 20:56:16 -- INFO -- Performing iteration 600 out of 1000
+13/03/2024 20:56:16 -- INFO -- Performing iteration 700 out of 1000
+13/03/2024 20:56:17 -- INFO -- Performing iteration 800 out of 1000
+13/03/2024 20:56:17 -- INFO -- Performing iteration 900 out of 1000
+13/03/2024 20:56:17 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 20h 56min 17s 
+Your tree search took 1.7e+02s 
+ 
+Time was spent in selection: 4.3e-02s, expansion: 1.6e+02s, rollout: 0.0e+00s, update: 1.7e-02s 
+You just lost the game
+13/03/2024 20:56:17 -- INFO -- At the end of this tree search, the cache contains 2
+13/03/2024 20:56:17 -- WARNING -- RECAP TIME_EXECUTION=166.93
+13/03/2024 20:56:17 -- WARNING -- RECAP STOP_REASON=iteration
+13/03/2024 20:56:17 -- WARNING -- RECAP NUMBER_ITERATION=999
+13/03/2024 20:56:17 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+13/03/2024 20:56:17 -- INFO -- No pathway was found for this compound
+13/03/2024 20:56:17 -- INFO -- 0 pathways were found
+13/03/2024 20:56:17 -- INFO -- At the end of this tree search, the cache contains 2

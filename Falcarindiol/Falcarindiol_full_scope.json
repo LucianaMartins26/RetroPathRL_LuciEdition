@@ -1,0 +1,27 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "C=CC(O)C#CC#CC(O)C=CCCCCCCC",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C17H24O2/c1-3-5-6-7-8-9-10-14-17(19)15-12-11-13-16(18)4-2/h4,10,14,16-19H,2-3,5-9H2,1H3",
+          "Names": [
+            "Falcarindiol",
+            "QWCNQXNAFCBLLV-UHFFFAOYSA-N"
+          ],
+          "id": "QWCNQXNAFCBLLV-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      }
+    ],
+    "edges": []
+  }
+}

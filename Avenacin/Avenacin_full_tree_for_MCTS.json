@@ -1,0 +1,67 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Avenacin|",
+          "average_score": 0.5,
+          "total_score": 500.0,
+          "visits": 1000,
+          "solved_child": false
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|HSCJRCZFDFQWRP-UHFFFAOYSA-N- solved|SRFOOYAHGIGROO-UHFFFAOYSA-N|",
+          "average_score": 0.5,
+          "total_score": 500.0,
+          "visits": 1000,
+          "solved_child": false
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "RR-02-d597c7a9749e7a1f-08-F"
+          ],
+          "EC number": [
+            "2.4.1"
+          ],
+          "Reaction SMILES": "CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(OC7OC(CO)C(O)C(O)C7O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O>>CNc1ccccc1C(=O)OC1CC2(C)C(O)CC3(C)C4(C)CCC5C(C)(CO)C(OC6OCC(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC4OC43C2CC1(C)C=O.O=c1nc(O)ccn1C1OC(COP(=O)(O)OP(=O)(O)OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+          "Diameter": 8,
+          "Score": 0.3338434347199052,
+          "ChemicalScore": 0.6710266884476328,
+          "Name": "SYXUBXTYGFJFEH-UHFFFAOYSA-N-RR-02-d597c7a9749e7a1f-08-F-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

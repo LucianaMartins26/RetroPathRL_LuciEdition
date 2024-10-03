@@ -1,0 +1,27 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "CN1CCC23c4c5ccc(O)c4OC2C(O)C=CC3C1C5",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3",
+          "Names": [
+            "Morphine",
+            "BQJCRHHNABKAKU-UHFFFAOYSA-N"
+          ],
+          "id": "BQJCRHHNABKAKU-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      }
+    ],
+    "edges": []
+  }
+}
